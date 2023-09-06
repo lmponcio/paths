@@ -1,0 +1,17 @@
+h1,
+p {
+    display: table-cell;
+    font-family: Verdana, sans-serif;
+}
+
+div {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.muted-text {
+    color: #888;
+}
+
+.underlined-text {
+    text-decoration: underline;
+}

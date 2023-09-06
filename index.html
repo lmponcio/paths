@@ -1,22 +1,37 @@
-<h1>Relative Paths </h1>
-<ul>
-    <li>Below you can find a directory tree representing the files of this static site (see <a href="https://github.com/lmponcio/paths">repository</a>)</li>
-    <li>File containing the html you are seeing rendered in the browser is signalled with the text "YOU ARE HERE"</li>
-    <li>Hover over each file link to see the relative path that will take you there</li>
-    <li>Click in each file link to go from one page to another and explore the different relative paths</li>
-</ul>
-<div>
-dir0<br>
-├── dir1<br>
-│   ├── dir2<br>
-│   │   └── <a href="./dir1/dir2/file2.html" title="./dir1/dir2/file2.html">file2.html</a><br>
-│   └── <a href="./dir1/file1.html" title="./dir1/file1.html">file1.html</a><br>
-├── dir3<br>
-│   ├── dir4<br>
-│   │   ├── dir5<br>
-│   │   │   └── <a href="./dir3/dir4/dir5/file5.html" title="./dir3/dir4/dir5/file5.html">file5.html</a><br>
-│   │   └── <a href="./dir3/dir4/file4.html" title="./dir3/dir4/file4.html">file4.html</a><br>
-│   └── <a href="./dir3/file3.html" title="./dir3/file3.html">file3.html</a><br>
-├── <a href="./file0.html" title="./file0.html">file0.html</a><br>
-├── index.html ----------------> <strong>YOU ARE <a href="https://github.com/lmponcio/paths/blob/main/index.html" title="Click to see source code">HERE</a></strong>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Relative Paths</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Relative Paths </h1> 
+    <p class="muted-text">
+        &nbsp;&nbsp; by 
+        <a style="color: inherit; text-decoration: none;"href="https://www.github.com/lmponcio">
+            <span class="underlined-text">Martin Poncio</span>
+        </a>
+    </p>
+    <ul>
+        <li>Below you can find a directory tree representing the files of this static site (see <a href="https://github.com/lmponcio/paths">repository</a>)</li>
+        <li>The file containing the HTML you are seeing rendered in the browser is signalled as "YOU ARE HERE"</li>
+        <li>Hover over each file link to see the relative path that will take you there</li>
+        <li>Click on each file link to go from one page to another and explore the different relative paths</li>
+    </ul>
+    <hr>
+    <div>
+    dir0<br>
+    ├── dir1<br>
+    │   ├── dir2<br>
+    │   │   └── <a href="./dir1/dir2/file2.html" title="./dir1/dir2/file2.html">file2.html</a><br>
+    │   └── <a href="./dir1/file1.html" title="./dir1/file1.html">file1.html</a><br>
+    ├── dir3<br>
+    │   ├── dir4<br>
+    │   │   ├── dir5<br>
+    │   │   │   └── <a href="./dir3/dir4/dir5/file5.html" title="./dir3/dir4/dir5/file5.html">file5.html</a><br>
+    │   │   └── <a href="./dir3/dir4/file4.html" title="./dir3/dir4/file4.html">file4.html</a><br>
+    │   └── <a href="./dir3/file3.html" title="./dir3/file3.html">file3.html</a><br>
+    ├── <a href="./file0.html" title="./file0.html">file0.html</a><br>
+    ├── index.html ----------------> <strong>YOU ARE <a href="https://github.com/lmponcio/paths/blob/main/index.html" title="Click to see source code">HERE</a></strong>
+    </div>
+</body>
