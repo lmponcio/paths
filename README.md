@@ -1,4 +1,4 @@
-# paths
+# Relative Paths Explained
 
 A static website to help people understand relative paths.
 
