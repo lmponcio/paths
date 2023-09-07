@@ -14,9 +14,22 @@
     </p>
     <ul>
         <li>Below you can find a directory tree representing the files of this static site (see <a href="https://github.com/lmponcio/paths">repository</a>)</li>
-        <li>The file containing the HTML you are seeing rendered in the browser is signalled as "YOU ARE HERE"</li>
+        <li>The file containing the HTML you are seeing rendered in the browser is signalled as "<div class="in-paragraph"><strong>YOU ARE HERE</strong></div>" </li>
         <li>Hover over each file link to see the relative path that will take you there</li>
         <li>Click on each file link to go from one page to another and explore the different relative paths</li>
+        <li>Rules to remember: <br>
+            <ul>
+                <li class="mt-custom"><code>./</code> means <em>"current directory"</em>  (the directory containing your current file)</li>
+                <li><code>../</code> means <em>"directory containing the current directory"</em>, and it can be used more than once: <code>../../</code> means <em>"the directory containing the directory that contains the current one"</em> </li>
+            </ul>
+        </li>  
+        <li>Example: if you are in <div class="in-paragraph">file2.html</div>, then <br>
+            <ul>
+                <li class="mt-custom"><code>./</code> is <div class="in-paragraph" >dir2</div> </li>
+                <li><code>../</code> is <div class="in-paragraph">dir1</div> </li>
+                <li><code>../../</code> is <div class="in-paragraph">dir0</div> </li>
+            </ul>
+        </li>      
     </ul>
     <hr>     
     <div>
